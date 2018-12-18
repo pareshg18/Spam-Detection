@@ -1,0 +1,12 @@
+n <- nrow(spam)
+p <- 0.07
+m <- ceiling(-n*log(p) / (log(2)^2))
+k <- ceiling(m/n * log(2))
+
+
+Implying,
+
+n = 47263
+p = 0.07
+m = 261597
+k = 4
